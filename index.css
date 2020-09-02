@@ -73,32 +73,57 @@ a{
     text-decoration:none;
     color:#4f4f4f;
     display:inline-block;
-    width:150px;
-    padding:2%;
     border-radius:10px;
-
-
 }
 
 header nav a{
     display:inline-block;
-    margin:5% 10%;
+    width:25%;
     text-align:center;
+    margin: 3% 10%;
+    padding: 10px;
+
 }
 
 header nav a:nth-child(1){
     background-color:#FF764E;
     color:white;
+    vertical-align: middle;
+    width:auto;
 }
 
 header nav a:nth-child(2){
     background-color:#5ED3EB;
     color:white;
+    vertical-align: middle;
+    width:auto;
 }
 
 header nav a:nth-child(3){
     background-color:#FFCD69;
     color:white;
+    vertical-align: middle;
+    width:auto;
+}
+
+header section img{
+    width:325px;
+    border-radius:50%;
+    margin:5% 5% 5% 8%;
+
+}
+
+header section h1{
+    display:inline-block;
+    width:40%;
+}
+
+header section p{
+    display:inline-block;
+}
+
+header section div{
+    display:inline-block;
 }
 
 footer nav{
