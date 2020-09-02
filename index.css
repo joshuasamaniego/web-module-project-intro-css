@@ -48,3 +48,22 @@ table {
 	border-spacing: 0;
 }
 /*#endregion*/
+* {
+    box-sizing:border-box;
+    border: 2px solid black;
+
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    line-height:1.8;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+header nav{
+    display: inline-block;
+}
