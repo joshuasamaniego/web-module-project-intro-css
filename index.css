@@ -1,0 +1,249 @@
+/* #region*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	/* vertical-align: baseline; */
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*#endregion */
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey; */
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    line-height:1;
+    font-family: 'Roboto Mono', sans-serif;
+    color:#4f4f4f;
+    background-color: whitesmoke;
+}
+
+h1, h2, h3, h4, h5, h5{
+    font-family:'Chelsea Market', sans-serif;
+}
+
+a{
+    text-decoration:none;
+    color:#4f4f4f;
+    display:inline-block;
+    border-radius:10px;
+}
+
+header nav{
+    padding:5% 0 0 0;
+}
+
+header nav a{
+    display:inline-block;
+    width:25%;
+    text-align:center;
+    margin: 5% 10%;
+    padding: .5%;
+
+}
+
+header nav a:nth-child(1){
+    background-color:#FF764E;
+    font-size:2rem;
+    color:white;
+    vertical-align: middle;
+    width:10%;
+}
+
+header nav a:nth-child(2){
+    background-color:#5ED3EB;
+    font-size:2rem;
+    color:white;
+    vertical-align: middle;
+    width:12%;
+}
+
+header nav a:nth-child(3){
+    background-color:#FFCD69;
+    font-size:2rem;
+    color:white;
+    vertical-align: middle;
+    width:10%;
+}
+
+.header-img-container {
+    vertical-align: middle;
+}
+
+header section img{
+    width:325px;
+    border-radius:50%;
+    margin:5% 5% 5% 8%;
+    display:inline-block;
+    vertical-align: middle;
+}
+.text-container {
+    width: 40%;
+    vertical-align: middle;
+    padding-bottom: 10%;
+}
+
+header section h1{
+    display:inline-block;
+    width:100%;
+    font-size: 5.4rem;
+    margin: 25px 75px;
+}
+
+header section p{
+    display:inline-block;
+    padding: 0 0 25px 75px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+header section div{
+    display:inline-block;
+    
+}
+
+.text-container .{
+    width: 40%;
+    vertical-align: middle;
+    padding-bottom: 10%;
+}
+.first-section {
+    background-color: #ddb9a3;
+    margin:2%;
+    color:white;
+    text-align: center;
+    padding:1%;
+}
+
+.second-section{
+    width:auto;
+}
+.second-section img{
+    width: 140px;
+    margin:auto;
+    display:inherit;
+    padding-bottom: 1%;
+}
+
+.second-section p{
+    margin: auto;
+    display: inherit;
+    width: 25%;
+    text-align: center;
+}
+
+span{
+    font-weight:bold;
+}
+
+.third-section img{
+    width: 140px;
+    margin: auto;
+    display: inherit;
+    padding-top: 3%;
+}
+
+.third-section p{
+    margin: auto;
+    display: inherit;
+    width: 25%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+footer{
+    width: 100%;
+    height:100%;
+}
+
+footer img{
+    width:100%;
+    height:400px;
+
+
+}
+
+footer nav{
+    background-color:#F9E7DC;
+    padding:5%;
+    text-align:center;
+
+}
+
+footer nav a:nth-child(1){
+    background-color:#FF764E;
+    color:white;
+    vertical-align: middle;
+    width:10%;
+    margin: 2% 10%;
+    font-size: 2rem;
+    padding: .5%;
+}
+
+footer nav a:nth-child(2){
+    background-color:#5ED3EB;
+    color:white;
+    vertical-align: middle;
+    width:12%;
+    margin: 2% 10%;
+    font-size: 2rem;
+    padding: .5%;
+}
+
+footer nav a:nth-child(3){
+    background-color:#FFCD69;
+    color:white;
+    vertical-align: middle;
+    width:10%;
+    margin: 2% 10%;
+    font-size: 2rem;
+    padding: .5%;
+}
